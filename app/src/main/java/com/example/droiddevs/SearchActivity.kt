@@ -1,8 +1,8 @@
-package com.example.notionclone
+package com.example.droiddevs
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.notionclone.R
+import com.example.droiddevs.R
 
 class SearchActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

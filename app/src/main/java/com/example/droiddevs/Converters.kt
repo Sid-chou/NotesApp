@@ -1,4 +1,4 @@
-package com.example.notionclone
+package com.example.droiddevs
 
 import androidx.room.TypeConverter
 import com.google.gson.Gson

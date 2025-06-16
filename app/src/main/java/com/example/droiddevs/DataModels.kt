@@ -1,4 +1,4 @@
-package com.example.notionclone
+package com.example.droiddevs
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

@@ -26,7 +26,7 @@
             android:layout_marginEnd="8dp"/>
 
         <!-- CHANGE IS HERE -->
-        <com.example.notionclone.DeletableEditText
+        <com.example.droiddevs.DeletableEditText
             android:id="@+id/etBlockContent"
             android:layout_width="0dp"
             android:layout_weight="1"

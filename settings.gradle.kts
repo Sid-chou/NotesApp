@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Notionclone"
+rootProject.name = "DroidDevs"
 include(":app")
- 

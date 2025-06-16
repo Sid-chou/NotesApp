@@ -1,4 +1,4 @@
-package com.example.notionclone
+package com.example.droiddevs
 
 import android.graphics.Paint
 import android.text.Editable

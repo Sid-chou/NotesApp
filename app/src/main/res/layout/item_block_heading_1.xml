@@ -12,7 +12,7 @@
         android:background="@drawable/block_divider" />
 
     <!-- CHANGE IS HERE -->
-    <com.example.notionclone.DeletableEditText
+    <com.example.droiddevs.DeletableEditText
         android:id="@+id/etBlockContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

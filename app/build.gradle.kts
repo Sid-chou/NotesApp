@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.notionclone"
+    namespace = "com.example.droiddevs"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.notionclone"
+        applicationId = "com.example.droiddevs"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
