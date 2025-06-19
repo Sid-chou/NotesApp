@@ -48,6 +48,7 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.recyclerview:recyclerview:1.3.2")
+    implementation(libs.androidx.room.common.jvm)
 
     // Room Database for local caching (replaces file storage)
     val room_version = "2.6.1"

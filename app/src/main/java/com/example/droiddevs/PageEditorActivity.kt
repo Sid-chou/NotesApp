@@ -219,16 +219,17 @@ class PageEditorActivity : AppCompatActivity() {
     }
 
     private fun showAddBlockMenu(position: Int) {
-        val blockTypes = arrayOf("Text", "Heading 1", "To-do", "Quote", "Bullet List")
+        val blockTypes = arrayOf("Text", "Heading 1", "Heading 2", "To-do", "Quote", "Bullet List")
         AlertDialog.Builder(this)
             .setTitle("Add Block")
             .setItems(blockTypes) { _, which ->
                 val blockType = when(which) {
                     0 -> BlockType.TEXT
                     1 -> BlockType.HEADING_1
-                    2 -> BlockType.TODO
-                    3 -> BlockType.QUOTE
-                    4 -> BlockType.BULLET_LIST
+                    2 -> BlockType.HEADING_2
+                    3 -> BlockType.TODO
+                    4 -> BlockType.QUOTE
+                    5 -> BlockType.BULLET_LIST
                     else -> BlockType.TEXT
                 }
                 viewModel.addBlock(position, blockType)

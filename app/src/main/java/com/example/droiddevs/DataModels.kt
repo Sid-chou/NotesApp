@@ -46,12 +46,12 @@ data class Page(
     }
 }
 
-// --- MODIFIED Block data class ---
+
 data class Block(
     val id: String = UUID.randomUUID().toString(),
     var type: BlockType = BlockType.TEXT,
     var content: String = "",
-    // CRITICAL FIX: Changed from MutableMap to immutable Map.
+
     val properties: Map<String, Any> = mapOf(),
     val createdAt: Date = Date(),
     var updatedAt: Date = Date(),

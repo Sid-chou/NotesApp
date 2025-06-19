@@ -1,6 +1,7 @@
 package com.example.droiddevs
 
 import android.graphics.Paint
+import android.graphics.Typeface
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.LayoutInflater
@@ -70,6 +71,7 @@ class BlockAdapter(
         val inflater = LayoutInflater.from(parent.context)
         return when (BlockType.values()[viewType]) {
             BlockType.HEADING_1 -> HeadingBlockViewHolder(inflater.inflate(R.layout.item_block_heading_1, parent, false))
+            BlockType.HEADING_2 -> Heading2BlockViewHolder(inflater.inflate(R.layout.item_block_heading_2, parent, false))
             BlockType.TODO -> TodoBlockViewHolder(inflater.inflate(R.layout.item_block_todo, parent, false))
             BlockType.QUOTE -> QuoteBlockViewHolder(inflater.inflate(R.layout.item_block_quote, parent, false))
             BlockType.BULLET_LIST -> BulletListBlockViewHolder(inflater.inflate(R.layout.item_block_bullet_list, parent, false))
@@ -153,7 +155,23 @@ class BlockAdapter(
     }
 
     inner class TextBlockViewHolder(view: View) : BaseTextBlockViewHolder(view)
-    inner class HeadingBlockViewHolder(view: View) : BaseTextBlockViewHolder(view)
+
+    inner class HeadingBlockViewHolder(view: View) : BaseTextBlockViewHolder(view) {
+        override fun bind(block: Block) {
+            super.bind(block)
+            // Make the heading text bold
+            editText.typeface = Typeface.DEFAULT_BOLD
+        }
+    }
+
+    inner class Heading2BlockViewHolder(view: View) : BaseTextBlockViewHolder(view) {
+        override fun bind(block: Block) {
+            super.bind(block)
+            // Make the heading 2 text bold
+            editText.typeface = Typeface.DEFAULT_BOLD
+        }
+    }
+
     inner class QuoteBlockViewHolder(view: View) : BaseTextBlockViewHolder(view)
     inner class BulletListBlockViewHolder(view: View) : BaseTextBlockViewHolder(view)
 
