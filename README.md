@@ -2,12 +2,10 @@
 
 PocketPages is a modern, offline-first, and feature-rich note-taking application for Android, inspired by the versatility of Notion. It provides a clean, block-based editor designed for everything from quick notes and to-do lists to structured databases and long-form writing, all while ensuring your data is always available, even without an internet connection.
 
-![home](https://github.com/user-attachments/assets/267fd7d0-ae92-43a2-ac4f-51b0e00a431d)
-![bin](https://github.com/user-attachments/assets/6a869f8b-df67-423f-8a9f-75ee81b8da11)
-![login](https://github.com/user-attachments/assets/01e7bb8d-7180-4597-803c-f83600e9caa5)
-![settings](https://github.com/user-attachments/assets/da1d15b5-389e-4e8f-b9d2-62670cc883d2)
-
-
+![home](https://github.com/user-attachments/assets/d83881a2-90ed-4ef6-94b7-8e9ae325ad35)
+![bin](https://github.com/user-attachments/assets/29a17643-1518-4cdf-9330-a0cbb557e9ed)
+![login](https://github.com/user-attachments/assets/3e635233-ea13-4824-9469-3ce129a96e79)
+![settings](https://github.com/user-attachments/assets/54652b5b-0493-42bb-9854-6c5df2153dc8)
 
 
 ## ✨ Features
